@@ -1,0 +1,7 @@
+<router-outlet></router-outlet>
+<div class="wrapper">
+<ul *ngFor="let element of responseData">
+  <li>{{element.date | date : 'EEEE'}}</li>
+  <li>{{element.temp}}&#8451;</li>
+  </ul>
+</div>

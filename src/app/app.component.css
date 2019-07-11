@@ -1,0 +1,13 @@
+
+.wrapper{
+    text-align: center;
+    padding: 40px;
+}
+ul{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+ul li {
+    justify-content: space-between    
+}
